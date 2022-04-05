@@ -98,11 +98,10 @@
 	line-height: 44px;
 	color: #3D3D3D;
 	text-shadow: 0px 4px 15px rgb(0 76 119 / 13%);
-	
-	/* position: absolute; */
-	/* right: 40%; */
-	/* transform: translateX(50%); */
+
 	opacity: 1;
+	width: fit-content;
+    margin: 0 auto;
 }
 
 .main-banner__slider .swiper-slide.swiper-slide-prev .slide-content,
