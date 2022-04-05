@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    position: relative;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+}
+
+button,
+input,
+select {
+    outline: transparent;
+}
+
+
+body {
+    min-width: 320px;
+    color: #3D3D3D;
+    font-family: 'Montserrat-Regular';
+}
+
+.container {
+    max-width: 1748px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Montserrat-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.button-gradient {
+    position: relative;
+    text-align: center;
+
+    &::before {
+        position: absolute;
+        content: '';
+        background-image: url('../images/border.svg');
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: -3px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.yellow-btn {
+    padding: 20px 25px;
+    background: #FFCB4A;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.06);
+}
